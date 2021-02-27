@@ -1,0 +1,23 @@
+.email-app {
+	background-color: #daebf2;
+	display: grid;
+	padding: 30px;
+	height: 110vh;
+	grid-template-columns: 1fr 5fr;
+	grid-template-rows: 1fr 8fr;
+}
+
+.email-filter {
+	grid-column: 1 / 3;
+	grid-row: 1 / 2;
+}
+
+.email-side-app {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+}
+
+.email-list {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+}

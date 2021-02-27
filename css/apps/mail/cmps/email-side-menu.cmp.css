@@ -1,0 +1,55 @@
+.email-side-display {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 30px;
+	height: fit-content;
+	position: fixed;
+	top: 150px;
+}
+
+.btn-side-menu {
+	background-color: inherit;
+	width: 150px;
+	margin-bottom: 10px;
+}
+
+.btn-side-menu > * {
+	padding: 10px;
+	list-style: none;
+}
+
+.progress-bar-container {
+	width: 150px;
+	height: 35px;
+	text-align: center;
+	font-weight: 600;
+	border: 2px solid black;
+	border-top: 2px solid gray;
+	border-left: 2px solid gray;
+}
+
+.progress-bar {
+	background-color: #0077b6;
+	max-width: 150px;
+	height: 31px;
+	color: rgb(214, 205, 205);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (max-width: 1000px) {
+	.email-side-display {
+		background-color: rgb(245, 245, 245);
+		border: 1px solid black;
+	}
+
+	.btn-side-menu {
+		border: none;
+	}
+
+	.progress-bar-container {
+		border: none;
+	}
+}
